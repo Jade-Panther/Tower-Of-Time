@@ -6204,7 +6204,7 @@ function makeSound(soundFile, volume, speed, doChangePitch, startTime) {
     sound.volume = volume;
     sound.playbackRate = speed;
     sound.preservesPitch = !doChangePitch;
-    console.log(sound)
+    console.log(sound);
     sound.currentTime = 1//startTime * sound.duration;
     return sound
 }
